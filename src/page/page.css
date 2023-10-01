@@ -1,0 +1,35 @@
+.page {
+    flex: 0.6;
+    border-right: 2px solid var(--twitter-background);
+    width: 100vw;
+    padding: 10px 10px;
+    height: 100vh;
+    display: flex;
+}
+
+.pageTitle {
+    color: var(--twitter-color);
+    text-align: center;
+    font-size: 30px;
+}
+
+.page {
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.page::-webkit-scrollbar {
+    display: none;
+}
+@media screen and (max-width:1024px) {
+    .page {
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+}
+}
+@media screen and (max-width:945px) {
+    
+}
